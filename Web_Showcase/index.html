@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img src="includes/images/Logo.svg" alt="weblogo" class="nav_logo">
+        <ul class="nav_list">
+            <li class="nav_list_item"><a href="#howto">How to play</a></li>
+            <li class="nav_list_item"><a href="#leaderboard">Leaderboard</a></li>
+            <li class="nav_list_item"><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="cta"><a href="signup.html">login | Signup</a></button>
+    </nav>
+    <section id="hero">
+        <div class="container">
+            <div class="row">
+                <h1>The Ultimate Museum Experience</h1>
+            </div>
+            <div class="row">
+                <button class="cta"><a href="#howto">Learn more</a></button>
+            </div>
+            <div class="row">
+                <img class="hero_logo">
+            </div>
+        </div>
+    </section>
+    <section id="howto">
+        <div class="container">
+            <div class="row">
+                <h2>How to play</h2>
+                <p>During your stay aboard the SS Rotterdam, you’ll find hidden
+                    <br> qr codes all across the ship!
+                    <br> Scan these codes with your phone and get ready to play!
+                    <br>Once you’ve beaten the games come back hereto this website
+                    <br>to see your score live on our leaderboard.
+                    <br>Can you become the ultimate SS Rotterdam Champion?
+                </p>
+            </div>
+            <div class="row">
+                <h3>Instruction video</h3>
+                <iframe width="1418" height="802" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="leaderboard">
+        <div class="container">
+            <div class="row">
+                <h2>Leaderboard</h2>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <h2>Contact</h2>
+                <p>Do you have any questions about the
+                    <br>game our the application? Send us a message!
+                </p>
+            </div>
+            <div class="row">
+                <form id="contact_form" class="form" action="#" method="POST">
+                    <div class="row">
+                        <label class="form_label" for="name"></label>
+                        <input type="text" class="form_control" id="name" name="name" placeholder="Your Name . . ."
+                            required>
+                    </div>
+                    <div class="row">
+                        <label class="form_label" for="email"></label>
+                        <input type="email" class="form_control" id="email" name="email" placeholder="Your Email . . ."
+                            required>
+                    </div>
+                    <div class="row">
+                        <label class="form_label" for="subject"></label>
+                        <input type="text" class="form_control" id="subject" name="subject" placeholder="Subject . . ."
+                            required>
+                    </div>
+                    <div class="row">
+                        <label class="form_label" for="message"></label>
+                        <textarea class="form_control" id="message" name="message" placeholder="message" rows="5"
+                            cols="50" required></textarea>
+                    </div>
+                    <div class="row"><button class="cta" type="submit"><a>Send Message</a></button>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <h3>Helpdesk Phone number</h3>
+                <p>+31 6 12345678</p>
+            </div>
+            <div class="row">
+                <h3>Email adress</h3>
+                <p>Guessr@Guessrotterdam.com</p>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <h3>© GuessRotterdam 2020</h3>
+            </div>
+            <div class="row">
+                <p>GuessRotterdam was developed in collaboration with SSRotterdam
+                    <br>All rights reserved
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
