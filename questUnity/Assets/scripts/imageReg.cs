@@ -26,7 +26,7 @@ public class image : MonoBehaviour
 
     public void OnImageChanged(ARTrackedImagesChangedEventArgs args)
     {
-        foreach(var trackedImage in args.added) 
+        foreach(var trackedImage in args.added)
         {
             Debug.Log(trackedImage.name);
         }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class gameLoader : MonoBehaviour
 {
+
     public void loadGame()
     {
         Application.LoadLevel("gameAI");
@@ -12,5 +13,12 @@ public class gameLoader : MonoBehaviour
     public void loadMainMenu()
     {
         Application.LoadLevel("mainMenu");
+    }
+
+    public GameObject target;
+
+    public void deleteObject()
+    {
+        Destroy(GameObject.Find("m_TrackedImagePrefab"));
     }
 }
