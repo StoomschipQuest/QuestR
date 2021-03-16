@@ -9,17 +9,17 @@ public class deleteObject : MonoBehaviour
     void Update () 
     {
 
-            if (Input.GetMouseButtonDown(0))
-            {
+        if (Input.GetMouseButtonDown(0))
+        {
             Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
                 if (Physics.Raycast(ray, out hit))
                 {
-                Debug.Log(target);
+                    Debug.Log(target);
 
-                target = hit.collider.gameObject;
+                    target = hit.collider.gameObject;
                 }
-            }
+        }
 
     }
 
@@ -27,7 +27,10 @@ public class deleteObject : MonoBehaviour
 
     public void objectDelete()
     {
-        Destroy(target);
+        if(target != null)
+        {
+            Destroy(target);
+        }
     }
 
 }

@@ -10,8 +10,8 @@ public class gameLoader : MonoBehaviour
         Application.LoadLevel("gameAI");
     }
 
-    public void loadMainMenu()
+    public void loadBadgeMenu()
     {
-        Application.LoadLevel("mainMenu");
+        Application.LoadLevel("badgeMenu");
     }
 }

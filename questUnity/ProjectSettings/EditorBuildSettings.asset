@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/gameAI.unity
     guid: 856c61b54eb1ec94db5da9ac228075e8
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/scenes/badgeMenu.unity
+    guid: 49cc242091739eb4ca8cd3810b370430
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4ee11a268e0d0424f8b8a9be7745dff9, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3f7fa74de6a0f0e42b64e76e3683bb83, type: 2}
