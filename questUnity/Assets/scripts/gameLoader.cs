@@ -14,11 +14,4 @@ public class gameLoader : MonoBehaviour
     {
         Application.LoadLevel("mainMenu");
     }
-
-    public GameObject target;
-
-    public void deleteObject()
-    {
-        Destroy(GameObject.Find("m_TrackedImagePrefab"));
-    }
 }
