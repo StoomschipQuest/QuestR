@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
-  m_Name: image1
+  m_Name: boat
   m_EditorClassIdentifier: 
   m_GuidLow: 5701633009761409017
   m_GuidHigh: 4126092210638838434
@@ -19,9 +19,9 @@ MonoBehaviour:
       m_GuidLow: 4723716288283949016
       m_GuidHigh: 6282509178494076316
     m_SerializedTextureGuid:
-      m_GuidLow: 1667609735265345889
-      m_GuidHigh: 16764160338202754874
+      m_GuidLow: 8936503796831947736
+      m_GuidHigh: 4171340304885158186
     m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
-    m_Name: guessr
+    m_Name: boat
     m_Texture: {fileID: 0}
